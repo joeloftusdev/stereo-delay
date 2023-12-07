@@ -5,7 +5,7 @@
 myLookAndFeelV1::myLookAndFeelV1()
 {
     File knobImageFile1 = File::getSpecialLocation
-    (File::SpecialLocationType::userDesktopDirectory).getChildFile("knob1.png");
+    (File::SpecialLocationType::userPicturesDirectory).getChildFile("knob1.png");
     img1 = ImageCache::getFromFile(knobImageFile1);
 }
 
