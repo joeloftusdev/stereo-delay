@@ -122,7 +122,7 @@ void StereoDelayAudioProcessorEditor::paint (juce::Graphics& g)
     g.fillAll(juce::Colour(0xff323e44));
 
     g.drawText("Search Path: " + File::getSpecialLocation(
-        File::SpecialLocationType::userDesktopDirectory)
+        File::SpecialLocationType::userPicturesDirectory)
         .getChildFile("knob2.png").getFullPathName(),
         getLocalBounds().removeFromBottom(100), Justification::centred, true);
 
