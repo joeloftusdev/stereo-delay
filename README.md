@@ -15,7 +15,7 @@ A Stereo Delay plugin built with the JUCE Library.
   
 ## FYI
 
-On Windows the knob images are kept in my pictures directory. (File::SpecialLocationType::userPicturesDirectory) in the  myLookAndFeel.cpp. You can change this if you want to keep them elsewhere: https://docs.juce.com/master/classFile.html.
+On Windows the knob images are kept in my pictures directory. (File::SpecialLocationType::userPicturesDirectory) in the  myLookAndFeel.cpp & PluginEditor.cpp. You can change this if you want to keep them elsewhere: https://docs.juce.com/master/classFile.html.
 
 ## Built With
 
