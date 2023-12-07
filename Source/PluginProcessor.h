@@ -44,18 +44,35 @@ private:
     void resetState();
 
     static float rightDelayRatio(float param);
+
+
     static constexpr float _delayMaxMsec = 500.0f;
 
     
     int _delayMax;
+
+   
     std::vector<float> _delayBuffer;
+
+    
     int _ldel, _rdel;
+
+    
     int _pos;
 
+  
     float _wet, _dry;
+
+   
     float _feedback;
+
+    
     float _lmix, _hmix;
+
+   
     float _filt;
+
+    // Delay unit for the low-pass filter.
     float _filt0;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(StereoDelayAudioProcessor)

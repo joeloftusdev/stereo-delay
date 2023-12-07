@@ -173,6 +173,7 @@ void StereoDelayAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, j
 
 juce::AudioProcessorEditor* StereoDelayAudioProcessor::createEditor()
 {
+    // return new juce::GenericAudioProcessorEditor(*this);
     return new StereoDelayAudioProcessorEditor(*this);
 }
 
