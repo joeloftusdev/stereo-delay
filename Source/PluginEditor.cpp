@@ -199,25 +199,14 @@ void StereoDelayAudioProcessorEditor::resized()
     // This is generally where you'll want to lay out the positions of any
     // subcomponents in your editor..
 
-   // auto bounds = getLocalBounds();
-    //auto topArea = bounds.removeFromTop(bounds.getHeight() * 0.33);
-    //auto leftArea = bounds.removeFromLeft(bounds.getWidth() * 0.33);
-    //auto rightArea = bounds.removeFromRight(bounds.getWidth() * 0.5);
-
-    //lDelaySlider.setBounds(proportionOfWidth(0.25f), proportionOfHeight(0.5207f) - (proportionOfHeight(0.598f) / 2), proportionOfWidth(0.2297f), proportionOfHeight(0.548f));
+  
     feedbackSlider.setBounds(proportionOfWidth(0.5689f), proportionOfHeight(0.4f) - (proportionOfHeight(0.3319f) / 2), proportionOfWidth(0.2095f), proportionOfHeight(0.26f));
     fxMixSlider.setBounds(proportionOfWidth(0.7811f), proportionOfHeight(0.4f) - (proportionOfHeight(0.3319f) / 2), proportionOfWidth(0.2095f), proportionOfHeight(0.26f));
     fbToneSlider.setBounds(proportionOfWidth(0.5689f), proportionOfHeight(0.72f) - (proportionOfHeight(0.3319f) / 2), proportionOfWidth(0.2095f), proportionOfHeight(0.26f));
     outputSLider.setBounds(proportionOfWidth(0.7811f), proportionOfHeight(0.72f) - (proportionOfHeight(0.3319f) / 2), proportionOfWidth(0.2095f), proportionOfHeight(0.26f));
     lDelaySlider.setBounds(proportionOfWidth(0.1257f) - (proportionOfWidth(0.2297f) / 2), proportionOfHeight(0.4986f) - (proportionOfHeight(0.402f) / 2), proportionOfWidth(0.2297f), proportionOfHeight(0.402f));
     rDelaySlider.setBounds(proportionOfWidth(0.40f) - (proportionOfWidth(0.2297f) / 2), proportionOfHeight(0.4986f) - (proportionOfHeight(0.402f) / 2), proportionOfWidth(0.2297f), proportionOfHeight(0.402f));
-    // lDelaySlider.setBounds(leftArea);
-    //rDelaySlider.setBounds(rightArea);outputSLider
-    //outputSLider.setBounds(leftArea.removeFromTop(bounds.getHeight() * 0.33));
-
-  //  feedbackSlider.setBounds(bounds.removeFromTop(bounds.getHeight() * 0.33));
-   // fbToneSlider.setBounds(bounds.removeFromTop(bounds.getHeight() * 0.5));
-    //fxMixSlider.setBounds(bounds);
+ 
 
     myKnobSlider1.setBoundsRelative(0.15, 0.2, 0.3, 0.3);
     myKnobSlider2.setBoundsRelative(0.35, 0.2, 0.3, 0.3);
