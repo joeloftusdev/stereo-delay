@@ -8,8 +8,8 @@ A Stereo Delay plugin built with the JUCE Library.
 ## Features
 * L & R Delay
 * Feedback
-* Tone
-* Mix
+* Tone: Feedback Filtering
+* Mix: Wet / Dry
 * Output Level
 
   
