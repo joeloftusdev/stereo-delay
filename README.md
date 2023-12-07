@@ -1,3 +1,3 @@
 # StereoDelay
 
-![alt text](https://github.com/joeloftusdev/StereoDelay/blob/master/Resources/Screenshot.jpg "Screenshot")
+![screenshot](https://github.com/joeloftusdev/StereoDelay/assets/152509645/e92a905e-1c45-4560-a6ac-1a7ecce8daea)
